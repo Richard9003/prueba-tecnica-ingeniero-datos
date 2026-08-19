@@ -1,0 +1,6 @@
+producto_id,producto_nombre,categoria,subcategoria,precio_lista
+201,Producto 201,Auto,Básico,10000
+202,Producto 202,Hogar,Premium,15000
+203,Producto 203,Vida,Full,20000
+204,Producto 204,Salud,Básico,25000
+201,Producto 201,AUT0,,10000
