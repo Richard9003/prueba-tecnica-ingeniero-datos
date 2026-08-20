@@ -40,6 +40,9 @@ data/
 └── gold/
 
 sql/
+
+├── 01_create_database.sql
+├── 02_create_bronze.sql
 ├── 03_load_bronze.sql
 ├── 03_validate_bronze.sql
 ├── 04_profile_bronze.sql
