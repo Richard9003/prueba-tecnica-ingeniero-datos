@@ -82,3 +82,20 @@ Se incluyeron consultas de ejemplo para:
 ## 8. Reproducibilidad
 
 Los scripts SQL se organizan por etapa y pueden ejecutarse nuevamente. Las tablas Silver y Gold se eliminan y reconstruyen para evitar duplicidad durante las ejecuciones.
+
+## 9. Exportación de resultados
+
+Los archivos Silver y Gold se exportan automáticamente mediante
+el script `export_csv.ps1`, utilizando `sqlcmd` y autenticación
+de Windows. La exportación no utiliza `xp_cmdshell`.
+
+Los archivos generados son:
+
+- `data/silver/ventas_silver.csv`
+- `data/gold/dim_cliente_gold.csv`
+- `data/gold/dim_producto_gold.csv`
+- `data/gold/dim_fecha_gold.csv`
+- `data/gold/fact_ventas_gold.csv`
+
+Antes de la entrega se validó que los archivos no contengan filas
+separadoras ni encabezados duplicados.
