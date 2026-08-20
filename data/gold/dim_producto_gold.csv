@@ -1,0 +1,14 @@
+﻿producto_sk,producto_id,producto_nombre,categoria,subcategoria,precio_lista
+-----------,-----------,---------------,---------,------------,------------
+1,201,Producto 201,Auto,No informado,10000.00
+producto_sk,producto_id,producto_nombre,categoria,subcategoria,precio_lista
+-----------,-----------,---------------,---------,------------,------------
+2,202,Producto 202,Hogar,Premium,15000.00
+producto_sk,producto_id,producto_nombre,categoria,subcategoria,precio_lista
+-----------,-----------,---------------,---------,------------,------------
+3,203,Producto 203,Vida,Full,20000.00
+producto_sk,producto_id,producto_nombre,categoria,subcategoria,precio_lista
+-----------,-----------,---------------,---------,------------,------------
+4,204,Producto 204,Salud,No informado,25000.00
+producto_sk,producto_id,producto_nombre,categoria,subcategoria,precio_lista
+-----------,-----------,---------------,---------,------------,------------

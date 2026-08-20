@@ -1,0 +1,17 @@
+﻿cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
+0,-1,Cliente desconocido,No informado,No informado
+cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
+1,101,Cliente 101,Retail,Norte
+cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
+2,102,Cliente 102,PYME,Centro
+cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
+3,103,Cliente 103,Corporate,Sur
+cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
+4,104,Cliente 104,Retail,Norte
+cliente_sk,cliente_id,cliente_nombre,segmento,region
+----------,----------,--------------,--------,------
