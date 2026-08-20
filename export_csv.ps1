@@ -38,7 +38,10 @@ function Export-QueryToCsv {
             $_ -notmatch "rows affected"
         }
 
-    Set-Content -Path $OutputFile -Value $content -Encoding UTF8
+    $headers = ($content | Select-Object -First 1)
+    $data = $content | Select-Object -Skip 2
+
+    Set-Content -Path $OutputFile -Value ($headers + $data) -Encoding UTF8
 }
 
 Export-QueryToCsv `
